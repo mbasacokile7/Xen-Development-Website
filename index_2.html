@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Xen Development</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Open+Sans&family=Raleway:wght@800&family=Share+Tech&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/99919bcb60.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="images/xd-favicon.ico">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark" style="background-color: #000000;">
+    <a class="navbar-brand" href="index.html#home-sec">
+      <img src="images/Xen_Dev_Logo.png" width="30" height="30" alt="">
+      Xen Development</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html#home-sec">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#services-sec">Services<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#contact-sec">Contact <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Services Section -->
+  <section id="services-sec">
+    <h1 class="services-heading">SERVICES WE OFFER</h1>
+
+    <div class="container services-section">
+      <div class="row d-flex flex-wrap align-items-center">
+        <div class="col-sm-6 web-dev-image">
+          <img src="images/web-dev-image.png" alt="" class="web-dev-image">
+        </div>
+        <div class="col-sm-6 web-dev-text">
+          <h2 class="service-type">Web Development</h2>
+          <p class="services-text">Our goal is to make sure that our clients have an outstanding online presence,
+            This includes having top-tier websites and web services for their businesses.
+            Our services range from building <span class="Services">Company Websites, eCommerce Stores and a Data-Driven Web Applications</span></p>
+        </div>
+
+      </div>
+
+      <div class="row d-flex flex-wrap align-items-center">
+
+        <div class="col-sm-6 graphic-design-image">
+
+          <img src="images/graphic-design-image.png" alt="" class="graphic-design-image">
+
+        </div>
+
+        <div class="col-sm-6 graphic-design-text">
+          <h2 class="service-type">Graphic Design</h2>
+          <p class="services-text">In addition to having a strong online presence, we offer graphic design services,
+            to provide <span class="Services">Posters or Flyers, Business Cards, Logo Design and Social Media Management</span> </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+  <!-- Contact Section -->
+  <section id="contact-sec">
+
+    <h1 class="services-heading">TELL US WHAT YOU NEED BELOW</h1>
+
+    <div class="container">
+      <div class="row d-flex flex-wrap align-items-center">
+        <div class="col-sm-6 contact-form">
+
+          <form class="" action="https://formsubmit.co/xencokile7@gmail.com" method="POST">
+            <label for="name" class="contact_form">Name</label><br>
+            <input type="text" class="contact-id" name="name"><br>
+            <label for="email" class="contact_form">Email</label><br>
+            <input type="text" class="contact-id" name="email" ><br>
+            <input type="hidden" name="_subject" value="XD New Email" class="contact-id"><br>
+            <input type="hidden" name="_next" value="http://127.0.0.1:8887/thankyou.html">
+            <label for="Message" class="contact_form">Message</label><br>
+            <textarea class="message-id" name="user_message"></textarea><br><br>
+            <input type="submit" value="Submit" class = "submit-btn">
+          </form>
+
+
+
+        </div>
+        <div class="col-sm-6 contact-image">
+          <img src="images/contact-image-01.png" alt="" class="contact-image">
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

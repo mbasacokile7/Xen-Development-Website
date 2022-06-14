@@ -33,6 +33,9 @@
           <a class="nav-link" href="#services-sec">Services<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
+          <a class="nav-link" href="#about-sec">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
           <a class="nav-link" href="#contact-sec">Contact <span class="sr-only">(current)</span></a>
         </li>
       </ul>
@@ -46,30 +49,66 @@
 
     <div class="container services-section">
       <div class="row d-flex flex-wrap align-items-center">
-        <div class="col-sm-6 web-dev-image">
+        <div class="col-lg-6 web-dev-image">
           <img src="images/web-dev-image.png" alt="" class="web-dev-image">
         </div>
-        <div class="col-sm-6 web-dev-text">
+        <div class="col-lg-6 web-dev-text">
           <h2 class="service-type">Web Development</h2>
           <p class="services-text">Our goal is to make sure that our clients have an outstanding online presence,
             This includes having top-tier websites and web services for their businesses.
             Our services range from building <span class="Services">Company Websites, eCommerce Stores and a Data-Driven Web Applications</span></p>
+          <br>
+          <a href="" class="btn btn-primary btn-lg active service-learn" role="button" aria-pressed="true">LEARN MORE</a>
+          <br>
         </div>
 
       </div>
 
       <div class="row d-flex flex-wrap align-items-center">
 
-        <div class="col-sm-6 graphic-design-image">
+        <div class="col-lg-6 graphic-design-image">
 
           <img src="images/graphic-design-image.png" alt="" class="graphic-design-image">
 
         </div>
 
-        <div class="col-sm-6 graphic-design-text">
+        <div class="col-lg-6 graphic-design-text">
           <h2 class="service-type">Graphic Design</h2>
           <p class="services-text">In addition to having a strong online presence, we offer graphic design services,
             to provide <span class="Services">Posters or Flyers, Business Cards, Logo Design and Social Media Management</span> </p>
+          <br>
+          <a href=" " class="btn btn-primary btn-lg active service-learn" role="button" aria-pressed="true">LEARN MORE</a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- About Section -->
+  <section id="about-sec">
+    <h1 class = "About-Heading"> HERE IS MORE ON OUR MISSION</h1>
+    <div class="container">
+      <div class="row d-flex flex-wrap align-items-center">
+        <div class="col-lg-6 about-text">
+          <h2 class = "About-Text-Heading"> More about us</h2>
+          <h3 class = "About-Description">Who are we?</h3>
+          <p class="About-Text"><span class= "Xen-Dev">Xen Development</span> is a company that is dedicated to excellence. It recognises the need for enterprises and businesses to expand and be readily present online.</p>
+
+          <h3 class = "About-Description">What do we do?</h3>
+          <p class="About-Text"><span class= "Xen-Dev">Xen Development</span> provides web development and graphic design services to businesses and individuals. Our goal is to ensure that our clients establish and then expand their online presence.</p>
+          <!--<h3 class = "Services">When did we arrive?</h3>
+          <p><span class= "Services">Xen Development</span> provides web development and graphical developement services to businesses and individuals. Our goal is to ensure that our clients establish and then expand their online presence.</p> -->
+
+
+        </div>
+        <div class="col-lg-6 about-picture">
+          <!-- Crop Image and make it circular -->
+          <!-- Make a card that flips -->
+          <img src="images/Mbasa_Cokile.jpg" alt="pictures of the owner">
+          <h3 class="service-type">Social Media Links</h3>
+
 
         </div>
 
@@ -89,24 +128,24 @@
 
     <div class="container">
       <div class="row d-flex flex-wrap align-items-center">
-        <div class="col-sm-6 contact-form">
+        <div class="col-lg-6 contact-form">
 
           <form class="" action="https://formsubmit.co/xencokile7@gmail.com" method="POST">
             <label for="name" class="contact_form">Name</label><br>
             <input type="text" class="contact-id" name="name"><br>
             <label for="email" class="contact_form">Email</label><br>
-            <input type="text" class="contact-id" name="email" ><br>
+            <input type="text" class="contact-id" name="email"><br>
             <input type="hidden" name="_subject" value="XD New Email" class="contact-id"><br>
             <input type="hidden" name="_next" value="http://127.0.0.1:8887/thankyou.html">
             <label for="Message" class="contact_form">Message</label><br>
             <textarea class="message-id" name="user_message"></textarea><br><br>
-            <input type="submit" value="Submit" class = "submit-btn">
+            <input type="submit" value="Submit" class="submit-btn">
           </form>
 
 
 
         </div>
-        <div class="col-sm-6 contact-image">
+        <div class="col-lg-6 contact-image">
           <img src="images/contact-image-01.png" alt="" class="contact-image">
 
 
@@ -117,7 +156,7 @@
     </div>
   </section>
 
-  
+  <script src="index.js"></script>
 </body>
 
 </html>

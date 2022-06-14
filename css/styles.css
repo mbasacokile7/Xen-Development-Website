@@ -39,10 +39,14 @@ body {
   padding-left: 10px !important;
   padding-right: 10px !important;
   border-radius: 23px;
+  transition: font-size 1.5s;
 }
 
 .btn-primary:hover {
   background-color: #E63E6D !important;
+  font-size: 23px;
+  color: #3D111C !important;
+  font-weight: bold;
 }
 
 /* Services Section */
@@ -67,9 +71,13 @@ body {
   z-index: 3;
   font-size: 25px;
 }*/
+
 .service-type {
   color: #B42B51;
   font-family: 'Share Tech Mono', monospace;
+  transition: color 1.5s;
+  transition: z-index 1.5s;
+  transition: font-size 1.5s;
 }
 
 .service-type:hover {
@@ -80,6 +88,9 @@ body {
 
 .Services {
   color: #E63E6D;
+  transition: color 1.5s;
+  transition: z-index 1.5s;
+  transition: font-size 1.5s;
 }
 
 .Services:hover {
@@ -88,7 +99,7 @@ body {
   color: #FFA1C9;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
 
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
   .graphic-design-image {
@@ -112,6 +123,52 @@ body {
 }
 
 /* About Section */
+
+.About-Heading{
+  font-family: 'Raleway', sans-serif;
+  color: #FFA1C9;
+  padding-bottom: 20px;
+  transition: color 1.5s;
+  transition: z-index 1.5s;
+  transition: font-size 1.5s;
+}
+
+
+.About-Description{
+  color: #B42B51;
+  font-family: 'Share Tech Mono', monospace;
+  transition: color 1.5s;
+  transition: z-index 1.5s;
+  transition: font-size 1.5s;
+}
+
+.About-Description:hover{
+  color: #FFA1C9;
+  z-index: 2;
+  font-size: 40px;
+}
+
+
+.Xen-Dev{
+  color: #E63E6D;
+  transition: color 1.5s;
+  transition: z-index 1.5s;
+  transition: font-size 1.5s;
+}
+
+.Xen-Dev:hover{
+  z-index: 2;
+  font-size: 25px;
+  color: #FFA1C9;
+}
+
+.About-Text{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+
 /*Contact Section */
 #contact-sec {
   margin-top: 50px;
@@ -159,7 +216,7 @@ body {
   width: 85%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
 
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
   .contact-image {
@@ -174,22 +231,26 @@ body {
     border: none !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
     border-radius: 20px;
     color: white;
     font-weight:bold;
+    transition: font-size 1.5s;
   }
 
   .submit-btn:hover {
     background-color: #E63E6D !important;
+    font-size: 23px;
+    color: #3D111C !important;
+    font-weight: bold;
   }
 
   .thank-you{
     margin-top: 150px;
     font-family: 'Share Tech Mono', monospace;
   }
-  
+
   .thanks{
     font-family: 'Share Tech Mono', monospace;
   }
